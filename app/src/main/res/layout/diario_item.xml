@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_margin="5dp">
+            android:layout_margin="@dimen/intern_margin_cards">
 
             <TextView
                 android:id="@+id/nome_diario"

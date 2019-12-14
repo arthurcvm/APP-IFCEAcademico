@@ -2,4 +2,5 @@
 <resources>
     <dimen name="card_base_empty_height">10dp</dimen>
     <dimen name="titulo">25sp</dimen>
+    <dimen name="intern_margin_cards">5dp</dimen>
 </resources>

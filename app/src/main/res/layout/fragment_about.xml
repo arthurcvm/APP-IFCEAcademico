@@ -13,7 +13,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_margin="@dimen/intern_margin_cards">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -39,7 +40,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_margin="@dimen/intern_margin_cards">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -72,7 +74,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_margin="@dimen/intern_margin_cards">
 
             <TextView
                 android:layout_width="match_parent"
@@ -80,6 +83,26 @@
                 android:layout_gravity="top"
                 android:text="Changelog"
                 android:textSize="@dimen/titulo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="3dp"
+                android:text="Versão: Alfa-0.2.1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:text="25/10/2019" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="10dp"
+                android:text="Corrigido erro de captura de notas dos diários.\nCorrigido espaçamento interno dos cards." />
 
             <TextView
                 android:layout_width="match_parent"

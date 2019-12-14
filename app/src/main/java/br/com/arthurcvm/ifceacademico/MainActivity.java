@@ -186,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
                             Log.i("t", "LOOP => "+i+" NOME "+ nomeNota +" VALOR "+valorNota[1].split(" [0-3]")[0] + " - VALOR DA NOTA!!!!!");
                         }
                         else if(valorNota.length > 2){
-                            for (int j = 1; j<=2; j++) {
+                            for (int j = 1; j<=valorNota.length-1; j++) {
                                 try {
                                     nota = Double.parseDouble(valorNota[j].split(" [0-3]")[0]);
 
